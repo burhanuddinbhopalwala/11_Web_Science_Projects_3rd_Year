@@ -1,0 +1,501 @@
+/*@font-face {
+  font-family: 'Bevan';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://themes.googleusercontent.com/static/fonts/bevan/v4/kZxOvEFDTL6rhtQAWC2LTw.woff) format('woff');
+}
+*/
+
+
+body
+{
+margin: 0 0 0 0;
+}
+
+html{margin: 0; padding: 0; border: none;}
+
+/* ==========================================================================
+   First Part Indian History  Start
+   ========================================================================== */
+/*Effect 1*/
+ /*    
+#div1
+{
+height:100%;
+width:100%;
+margin: 0 0 0 0;
+overflow:auto;
+}
+*/
+
+/*Effect 2*/
+#divv
+{
+position:absolute;
+z-index:990;
+height:100%;
+width:100%;
+}
+  
+#div1
+{
+margin: 0 0 0 0;
+overflow:auto;	
+}
+button#but1
+{
+background-color:#ffffff;
+z-index: 9999;
+}
+
+h1#youthwork
+{
+line-height:100%;
+font-family:Bevan;
+font-size:8em;
+text-align:left;
+background-image: url(../new_images/img1.gif);
+-webkit-background-clip:text;
+-moz-background-clip: text;
+-o-background-clip:text;
+background-clip:text;
+margin-top:250px;
+margin-left:208px;
+color: rgba(0,0,0,0);
+}
+
+
+div#part1{
+margin-left:0px;
+background-color:#1d1711;
+color: #f2f0ea;
+position:relative;
+overflow:hidden;
+height: 91%;
+}
+
+div#part2{
+z-index:999;
+background-color:#1d1711;
+}
+
+#but1
+{
+margin-left:50%;
+margin-top:0px;
+margin-bottom:30px;
+}
+/* ==========================================================================
+   Toolbar About, search , youthwork
+   ========================================================================== */
+   
+#topbar
+{
+height:100%;
+width:100%;
+display:block;
+padding: 10px 0 0 0px;
+float:left;
+color: #f2f0ea;
+background-color: #1d1711;
+height: 50px;
+border-bottom: 0px solid #e6e3db;
+z-index: 90;
+text-align: left;
+
+	/*height:90px;*/
+
+}
+ 
+   
+#darken
+{
+padding-left:20px;
+color:#d6d6d6; padding-right: 0px;
+font-family:Bevan;
+font-size:25px;
+-webkit-transition-property:color,padding-right;
+-webkit-transition-duration:0.3s;
+
+-moz-transition-property:color,padding-right;
+-moz-transition-duration:0.3s;
+
+-o-transition-property:color,padding-right;
+-o-transition-duration:0.3s;
+
+transition-property:color,padding-right;
+transition-duration:0.3s;
+}
+
+#darken:hover
+{
+padding-right:9px;
+color: #f2f0ea;
+}
+
+#darken1
+{
+font-family:Bevan;
+font-size:150%;
+color:#FFFFFF;
+}
+
+#map_but
+{
+margin-top:10%;
+}
+
+.navigation {
+}
+
+.navigation  > a{
+padding-right:10px;
+}
+
+
+#in-out
+{
+display:inline;float:right;
+margin-right:100px;
+text-decoration:none;
+}
+
+#in_out_menu
+{
+	margin-right:7%;
+	display:none;
+	float:right;
+	margin-top:-16px;
+}
+
+.out_out_href1,.out_out_href2
+{
+text-decoration:none;
+font-family:Bevan;
+font-size:25px;
+color:#FFFFFF;
+}
+
+.out_out_href1
+{
+margin-right:100px;
+}
+
+.out_out_href2
+{
+color:#1d1711;
+}
+
+#out_out,#out_inside
+	{
+	list-style:none;
+	}
+
+ul#out_inside{
+	padding-top:10px;
+	display: none;
+			}
+
+#in_out_menu #out_out li:hover > ul#out_inside
+		{
+		position:absolute;
+		display:block;
+		}
+
+#out_out 
+	{
+	position: relative;
+	display: inline-table;
+	}
+	
+
+/* ==========================================================================
+   Faltu Div
+   ========================================================================== */
+
+#fade_div
+{
+margin-top:-4%;
+opacity:0.9;
+height:110%;
+width:100%;
+z-index:1005;
+background-color:#1d1711;
+display:none;
+position:fixed;
+}
+
+#x_img
+{
+margin-top:0px;
+margin-right:0px;
+z-index:1006;
+cursor: pointer;
+}
+
+#x_img1
+{
+margin-top:0px;
+margin-right:0px;
+z-index:1006;
+cursor: pointer;
+}
+
+#x_img2
+{
+margin-top:0px;
+margin-right:0px;
+z-index:1006;
+cursor: pointer;
+}
+
+#login_div
+{
+margin-top:-4%;
+z-index:1006;
+position:fixed;
+height:110%;
+width:100%;
+display:none;
+}
+
+#forgot_div
+{
+margin-top:-4%;
+z-index:1006;
+position:fixed;
+height:110%;
+width:100%;
+display:none;
+}
+
+
+
+#regis_div
+{
+margin-top:-4%;
+z-index:1006;
+position:fixed;
+height:110%;
+width:100%;
+display:none;
+}
+
+
+/* ==========================================================================
+   Side Bar
+   ========================================================================== */
+
+
+#index-left-side-nav{
+	margin-left:-7px;
+	margin-top:60px;
+	position: fixed;
+	top: 0px;
+	bottom:0px;
+	left: -220px;
+	width: 200px;
+	min-height: 650px;
+	background-color: black;
+	z-index: 999;
+	opacity: 0.9;
+}
+
+#index-left-side-nav-header{
+	margin-top: 45px;
+	width: 100%;
+	text-align:center;
+	
+}
+
+#navcontainer{
+	margin-left:-20px;
+	margin-top: 20px;
+	width: 100%;
+	text-align:center;
+}
+
+
+
+ul#navlist 
+{ 
+	color: white;
+	font: 20px Cuprum,Arial,Helvetica,'Nimbus Sans L',sans-serif; 
+}
+
+
+ul#navlist a
+{
+display:block;
+width:100%;
+font-weight: bold;
+text-decoration: none;
+}
+
+ul#navlist, ul#navlist ul, ul#navlist > li
+{
+padding-top:0px;
+margin-left:0px;
+list-style-type: none;
+}
+
+
+ul#navlist li a
+{
+color: #FFFF99;
+padding-top:6.5px;
+padding-bottom:6.5px;
+margin-bottom:-7px;
+}
+
+ul#navlist li a:hover
+{
+	
+	cursor: pointer;
+	color: white;
+	background: #3497b5;
+	opacity: 1;
+}
+
+ul#navlist li a:active
+{
+
+	cursor: pointer;
+	color: white;
+	background: #3497b5;
+	opacity: 1;
+}
+
+ul#subnavlist { display: none; }
+
+
+ul#subnavlist li a
+{
+padding: 10px;
+margin: 0px;
+}
+
+ul#navlist li:hover ul#subnavlist
+{
+display: inline-block;
+position: absolute;
+margin-left:0px;
+font-size: 12pt;
+padding-top: 5px;
+}
+
+ul#navlist li:hover ul#subnavlist li a
+{
+background: #3497b5;
+display: block;
+width: 10em;
+border: none;
+padding: 2px;
+}
+
+ul#navlist li:hover ul#subnavlist li a:before { content:  }
+
+
+#index-left-side-nav-hide{
+	position: relative;
+	top: 25px;
+	margin: auto;
+	height: 20px;
+	width: 20px;
+
+}
+
+#index-left-side-nav-hide:hover{
+	cursor: pointer;
+}
+
+
+#index-left-side-nav-show
+{
+	
+	-webkit-border-radius:20px;
+-moz-border-radius:20px;
+-o-border-radius:20px;
+border-radius:20px;
+	position: fixed;
+	bottom: 110px;
+	width: 45px;
+	height: 25px;
+	opacity: 0.9;
+	background-color: #342E29;
+	z-index: 999;
+	left:0px;
+}
+
+#index-left-side-nav-show:hover{
+	cursor: pointer;
+}
+
+#nav-but2
+{
+margin-left:10px;
+}
+
+/* ==========================================================================
+   Mid page
+   ========================================================================== */
+#content
+{
+margin-top:0%;
+position:relative;
+height:auto;
+width:auto;
+background-color:#ebe9e2;
+}
+
+#x_img3
+{
+margin-top:20px;
+margin-left:20px;
+z-index:10122;
+cursor: pointer;
+}
+
+#map_div
+{
+top:0px;
+z-index:1010;
+position:fixed;
+height:90%;
+width:100%;
+display:none;
+}
+
+/* ==========================================================================
+	Footer
+   ========================================================================== */
+
+
+#foot_div
+{
+display:none;
+}
+
+
+/*#foot_but_div
+{
+color: WHITE;
+font: 20px Cuprum,Arial,Helvetica,'Nimbus Sans L',sans-serif; 
+opacity:0.7;
+background-color: black;
+text-align:justify;
+padding:1% 3% 1% 3%;
+font-size:25px;
+font-family:helvetica;
+z-index:1008;
+position:fixed;
+height:30%;
+width:20%;
+display:none;
+margin-top:16%;
+margin-left:37%;
+-webkit-border-radius:20px;
+-moz-border-radius:20px;
+-o-border-radius:20px;
+border-radius:20px;
+}*/

@@ -1,0 +1,12 @@
+.important{
+font-family : Courier , san-serif;
+color : red;
+}
+.list
+{
+	list-style-type : square ; 
+	color : green ; 
+}
+h1,h2,h3,h4,h5{
+color : #039;
+}
